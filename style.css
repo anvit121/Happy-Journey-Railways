@@ -1,0 +1,407 @@
+body {
+  background-image : url(benches-on-train-station-1444108.jpg);
+  background-size: cover;
+  
+}
+
+  /*Nav Bar*/
+
+nav {
+    display: flex;
+    background: rgb(56, 144, 185);
+    color: white;
+    padding: 50px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.nav-links a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+nav h1 {
+    color: rgb(0, 0, 0);
+    font: outline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 35px;
+    float: left;
+}
+ 
+nav ul {
+    color: white !important;
+    float: right;
+}
+
+nav li {
+    
+    list-style: none ;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    body {
+        display: none;
+    }
+}
+
+/* Home page*/
+
+.homebody {
+    background-image: none;
+  }
+  
+  #slider {
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    top: 50%;
+    bottom: initial !important;
+  }
+  
+  .carousel-caption h5 {
+    color: rgb(209, 212, 228);
+    font-size: 42px;
+  }
+  /*------------about------------*/
+  #about {
+    padding: 50px;
+    padding-bottom: 50px;
+    color: #555;
+  }
+  #about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    padding: 2px;
+  }
+  
+  #contact1 {
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+  }
+  .follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+  }
+
+/* login */
+
+.Login-form {
+    max-width: 500px;
+    border: 1px solid white;
+    margin: 10% auto;
+    padding: 0px 20px 20px;
+  }
+  
+  .Login-form label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .Login {
+    margin-top: 1rem;
+    padding: 5px 220px !important;
+    background: transparent !important;
+    border: 1px solid !important;
+    color: white !important;
+    cursor: pointer !important;
+    width: 100% !important;
+  }
+  
+  .message {
+    text-align: center;
+    color: rgb(171, 186, 228);
+  }
+  
+  .message a {
+    color: rgb(148, 179, 199);
+  }
+  
+  .Login:hover {
+    background: white !important;
+    color: black !important;
+  }
+  
+  /* Registration */
+  
+  .Registration-form {
+    
+    max-width: 550px;
+    border: 1px solid white;
+    margin: 10% auto;
+    padding: 0px 20px 20px;
+  }
+  
+  .Registration-form label {
+    max-width: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  .Create {
+    margin-top: 1rem ;
+    padding: 5px 220px !important;
+    background: transparent !important;
+    border: 1px solid !important;
+    color: white !important;
+    cursor: pointer !important;
+    width: 100% !important;
+  }
+  
+  .Create:hover {
+    background: white !important;
+    color: black !important;
+  }
+
+
+/*FORM*/
+
+.booking-form {
+    margin-top: 1rem;
+    max-width: 550px;
+    border: 1px solid white;
+    margin: 10% auto;
+    padding: 0px 20px 20px;
+    
+}
+
+.booking-form label {
+    margin-bottom:5px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+input::placeholder {
+    color: white !important;
+}
+
+.input-group
+{
+    margin-top: 1rem;
+    width: 150px;
+    display: inline-block;
+}
+.form-control {
+    font-size: 12px !important;
+    border-radius: 2px !important;
+    color: white !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    
+}
+
+.select-date::-webkit-inner-spin-button
+
+{
+    -webkit-appearance: none;
+    
+}
+
+.profile h4 {
+  color: rgb(255, 255, 255) !important;
+  font-size: 25px !important;
+  margin-top : 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+}
+/*profile*/
+
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgb(255, 255, 255);
+	margin: 2px 0;
+	padding: 25px;
+	background-color: transparent;
+}
+.content > p table td, .content > div table td {
+  padding: 2px;
+  color: white;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #ffffff;
+	
+}
+.content > div p {
+	padding: 5px;
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+
+/*Trainlist*/
+
+.custom-select {
+    color: white !important;
+    padding: 2px! important;
+    font-size: 12px !important;
+    border: 1px solid white!important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+.custom-select option {
+    color: rgb(68, 68, 70)
+}
+
+.train {
+    margin-top: 1rem;
+    padding: 5px 220px !important;
+    background: transparent !important;
+    border: 1px solid white !important;
+    color: white !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+.train1 {
+    font-size: 30px !important;
+    padding: 5px 220px !important;
+    background: white !important;
+    border: 1px solid white !important;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer !important;
+    width: 155% !important;
+    
+}
+
+.train:hover {
+    background: white !important;
+    color: black !important;
+}
+
+.train1:hover {
+    padding: 50px 2px;
+    background: rgb(138, 210, 219) !important;
+    color: black !important;
+}
+
+.personal .p {
+    border-top: none !important;
+    border-left: none!important;
+    border-right: none!important;
+    outline: none !important;
+    background:transparent !important;
+    border-bottom: 2px solid rgb(255, 254, 254) !important;
+    width:210px !important;
+    margin:10px !important;
+}
+
+table {
+    background: transparent;
+    table-layout: fixed;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-color: white;
+}
+
+.booking-form1 {
+    max-width: 1000px;
+    border: 1px solid white;
+    margin: 10% auto;
+    padding: 0px 20px 20px;
+    
+}
+
+.text-center {
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-head {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    padding: 20px 2px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.name {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*Booking Confirmation*/
+
+.ticket-mssg {
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.view-ticket {
+    margin-top: 30px !important;
+    padding: 5px 50px !important;
+    background: transparent !important;
+    border: 1px solid white !important;
+    color: white !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+.view-ticket:hover {
+  background: white !important;
+  color: black !important;
+}
